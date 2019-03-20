@@ -1,0 +1,186 @@
+#section-3{
+    text-align: center;
+    .sec-3-text{
+        h2{
+            padding: 50px 50px 50px 30px;
+        }
+        p{
+            padding: 0 20px 50px 20px;
+            opacity: 0.65;
+            line-height: 1.5;
+        }
+    }
+    .apps-3-1{
+        .slack{
+            margin: 20%;
+            border-style: solid;
+            border-radius: 40px;
+            img{
+                padding: 20px;
+                width: 60%;
+                border-bottom: solid;
+            }
+            .app-text{
+                padding: 20px 20px 20px 20px;
+                h3{
+                    padding-bottom: 10px;
+                }
+            }
+        }
+        .asana{
+            margin: 20%;
+            border-style: solid;
+            border-radius: 40px;
+            img{
+                padding: 20px;
+                width: 60%;
+                border-bottom: solid;
+            }
+            .app-text{
+                padding: 20px 20px 20px 20px;
+                h3{
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+    .apps-3-2{
+        .gsuite{
+            margin: 20%;
+            border-style: solid;
+            border-radius: 40px;
+            img{
+                padding: 20px;
+                width: 60%;
+                border-bottom: solid;
+            }
+            .app-text{
+                padding: 20px 20px 20px 20px;
+                h3{
+                    padding-bottom: 10px;
+                }
+            }
+        }
+        .salesforce{
+            margin: 20%;
+            border-style: solid;
+            border-radius: 40px;
+            img{
+                padding: 20px;
+                width: 60%;
+                border-bottom: solid;
+            }
+            .app-text{
+                padding: 20px 20px 20px 20px;
+                h3{
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+    .apps-3-3{
+        .trello{
+            margin: 20%;
+            border-style: solid;
+            border-radius: 40px;
+            img{
+                padding: 20px;
+                width: 60%;
+                border-bottom: solid;
+            }
+            .app-text{
+                padding: 20px 20px 20px 20px;
+                h3{
+                    padding-bottom: 10px;
+                }
+            }
+        }
+        .typeform{
+            margin: 20%;
+            border-style: solid;
+            border-radius: 40px;
+            img{
+                padding: 20px;
+                width: 60%;
+                border-bottom: solid;
+            }
+            .app-text{
+                padding: 20px 20px 20px 20px;
+                h3{
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 875px){
+    #section-3{
+        display: flex;
+        align-items: center;
+        .sec-3-text{
+            text-align: left;
+        }
+        .apps-3-1{
+            .slack{
+                margin: 30px 20px 0 0;
+            }
+            .asana{
+                margin: 30px 20px 0 0;
+            }
+        }
+        .apps-3-2{
+            .gsuite{
+                margin: 30px 20px 0 0;
+            }
+            .salesforce{
+                margin: 30px 20px 0 0;
+            }
+        }
+        .apps-3-3{
+            .trello{
+                margin: 30px 20px 0 0;
+            }
+            .typeform{
+                margin: 30px 20px 0 0;
+            }
+        }
+    }
+}
+/*
+@media only screen and (min-width: 1025px){
+    #section-3{
+        .sec-3-text{
+            h2{
+                padding-left: 50px;
+            }
+            p{
+                padding-left: 50px;
+            }
+        }
+        .apps-3-1{
+            .slack{
+                margin: 30px 100px 0 100px;
+            }
+            .asana{
+                margin: 30px 100px 0 100px;
+            }
+        }
+        .apps-3-2{
+            .gsuite{
+                margin: 30px 100px 0 100px;
+            }
+            .salesforce{
+                margin: 30px 100px 0 100px;
+            }
+        }
+        .apps-3-3{
+            .trello{
+                margin: 30px 20px 0 100px;
+            }
+            .typeform{
+                margin: 30px 20px 0 100px;
+            }
+        }
+    }
+}*/

@@ -1,0 +1,52 @@
+$buttonColor: hsl(163, 95%, 43%);
+
+header{
+    padding: 20px 20px 80px 20px;
+    overflow:hidden;
+    background: url(../images/bg-intro-mobile.svg) no-repeat right;
+    img{
+        padding-top: 8px;
+        float: left;
+        width: 100px;
+    }
+    nav{
+        float: right;
+        ul{
+            display: flex;
+            li{
+                color: white;
+                list-style-type: none;
+                padding: 5px 10px 5px 10px;
+                &:hover{
+                    background: $buttonColor;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 875px){
+    header{
+        padding: 20px 20px 630px 20px;
+        background: url(../images/bg-intro-desktop.svg) no-repeat right;
+        img{
+            position: absolute;
+            width: 150px;
+        }
+        nav{
+            ul{
+                li{
+                    margin: 0 0 0 20px;
+                    padding: 10px 30px 10px 30px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1024px){
+    header{
+        img{
+            padding-left: 50px;
+        }
+    }
+}

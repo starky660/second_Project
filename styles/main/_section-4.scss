@@ -1,0 +1,29 @@
+#section-4{
+    text-align: center;
+    h2{
+        padding-top: 50px;
+    }
+    p{
+        padding: 30px 20px 30px 20px;
+        opacity: 0.65;
+    }
+    button{
+        font-size: 1.5em;
+        padding: 10px 40px 10px 40px;
+        border: none;
+        background: $buttonColor;
+        border-radius: 5%;
+        color: white;
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (min-width: 875px){
+    #section-4{
+        padding: 0 250px 0 250px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    #section-4{
+        padding: 0 350px 0 350px;
+    }
+}
